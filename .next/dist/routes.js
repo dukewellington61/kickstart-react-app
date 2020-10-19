@@ -2,7 +2,7 @@
 
 var routes = require("next-routes")();
 
-routes.add("/campaigns/new", "campaigns/new").add("/campaigns/:address", "campaigns/show");
+routes.add("/campaigns/new", "campaigns/new").add("/campaigns/:address", "campaigns/show").add("/campaigns/:address/requests", "campaigns/requests/index").add("/campaigns/:address/requests/new", "campaigns/requests/new");
 
 module.exports = routes;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJvdXRlcy5qcyJdLCJuYW1lcyI6WyJyb3V0ZXMiLCJyZXF1aXJlIiwiYWRkIiwibW9kdWxlIiwiZXhwb3J0cyJdLCJtYXBwaW5ncyI6Ijs7QUFBQSxJQUFNLFNBQVMsQUFBZjs7QUFFQSxPQUNHLEFBREgsSUFDTyxBQURQLGtCQUN5QixBQUR6QixpQkFFRyxBQUZILElBRU8sQUFGUCx1QkFFOEIsQUFGOUI7O0FBSUEsT0FBTyxBQUFQLFVBQWlCLEFBQWpCIiwiZmlsZSI6InJvdXRlcy5qcyIsInNvdXJjZVJvb3QiOiIvaG9tZS90aGVpcm9uZHVrZS9XRUJfREVWL0JMT0NLQ0hBSU4vRXRoZXJldW1fU29saWRpdHlfQ291cnNlL2tpY2tzdGFydCJ9
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJvdXRlcy5qcyJdLCJuYW1lcyI6WyJyb3V0ZXMiLCJyZXF1aXJlIiwiYWRkIiwibW9kdWxlIiwiZXhwb3J0cyJdLCJtYXBwaW5ncyI6Ijs7QUFBQSxJQUFNLFNBQVMsQUFBZjs7QUFFQSxPQUNHLEFBREgsSUFDTyxBQURQLGtCQUN5QixBQUR6QixpQkFFRyxBQUZILElBRU8sQUFGUCx1QkFFOEIsQUFGOUIsa0JBR0csQUFISCxJQUdPLEFBSFAsZ0NBR3VDLEFBSHZDLDRCQUlHLEFBSkgsSUFJTyxBQUpQLG9DQUkyQyxBQUozQzs7QUFNQSxPQUFPLEFBQVAsVUFBaUIsQUFBakIiLCJmaWxlIjoicm91dGVzLmpzIiwic291cmNlUm9vdCI6Ii9ob21lL3RoZWlyb25kdWtlL1dFQl9ERVYvQkxPQ0tDSEFJTi9FdGhlcmV1bV9Tb2xpZGl0eV9Db3Vyc2Uva2lja3N0YXJ0In0=
